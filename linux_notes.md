@@ -1,0 +1,79 @@
+    1  ls
+    2  pwd
+    3  touch kjr
+    4  ls
+    5  exit
+    6  wsl
+    7  ls
+    8  cd /home/jkotla/devops-lab
+    9  ls
+   10  pwd
+   11  git add .
+   12  git commit -m "Added Linux notes"
+   13  git init
+   14  git add .
+   15  git commit -m "Added Linux notes"
+   16  git config --global user.name "Jitender Kotla"
+   17  git config --global user.email "your_email@example.com"
+   18  gir status
+   19  git status
+   20  cd /devops-lab
+   21  git init
+   22  git branch -m main 2>/dev/null
+   23  cd ~/devops-lab
+   24  git init
+   25  git branch -m main 2>/dev/null || true
+   26  git status
+   27  ls
+   28  ls -ls /.ssh
+   29  ssh-keygen -t ed25519 -C "Your_github_kjithenderreddy31@@gmail.com"
+   30  eval "$(ssh-agent -S)"
+   31  eval "$(ssh-agent s)"
+   32  eval "$(ssh-agent -s)"
+   33  ssh-add /.ssh/id_ed25519
+   34  ssh-add /home/jkotla/.ssh/id_ed25519
+   35  ls -la ~/.ssh
+   36  eval "$(ssh-agent -s)"
+   37  ssh-add ~/.ssh/id_ed25519
+   38  cat ~/.ssh/id_ed25519.pub
+   39  ssh -T git@github.com
+   40  cd ~/devops-lab
+   41  git remote add origin git@github.com:Jkotla31/devops-lab.git
+   42  git remote -v
+   43  git push -u origin main
+   44  git log
+   45  git push -u origin main
+   46  cd ~/devops-lab
+   47  git remote set-url origin git@github.com:Jkotla31/Devops-lab.git
+   48  git remote -v
+   49  cd ~/devops-lab
+   50  cat > README.md <<'EOF'
+This repo tracks my DevOps learning journey using Windows + WSL.
+
+## Contents
+- Linux fundamentals (commands, permissions)
+- Git basics (init, add, commit, push)
+- SSH key setup for GitHub
+
+## Notes
+See `linux_notes.md` for command references.
+EOF
+
+   51  git add README.md
+   52  git commit -m "Add README"
+   53  git push
+   54  git config --global user.name "Jitender Kotla"
+   55  git config --global user.email "kjithenderreddy31@gmail.com"
+   56  git config --global user.name "Jitender Kotla"
+   57  git config --global user.email "kjithenderreddy31@gmail.com"
+   58  ls
+   59  ls -l
+   60  chmod 777 file.txt
+   61  grep
+   62  grep --help
+   63  history
+   64  history >> linux.txt
+   65  ls
+   66  vim
+   67  vim linux.txt
+   68  history >> linux_notes.md
